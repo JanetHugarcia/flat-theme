@@ -1,0 +1,126 @@
+body{
+	font-size: 14px;
+}
+#hero{
+	position: relative;
+
+}
+header{
+	background-color: #33485D;
+	padding:1%;
+}
+nav{
+	padding-top: 5px;
+}
+header img{
+	width: 220px;
+	height: 30px;
+
+}
+.mg-0{
+	margin:0!important;
+}
+.menu{
+	margin: 0;
+}
+.menu>li{
+	display: inline-block;
+	padding:0px;
+}
+.menu>li>a{
+	width: 100%;
+	color:rgba(255,255,255,.5);
+	padding:10px 15px;
+	border-radius: 5px;
+}
+.active{
+	background-color: #2C3E50;
+}
+.menu>li>a:hover{
+	text-decoration: none;
+	color:white;
+}
+.slider{
+	background: url('../images/slider/bg1.jpg')no-repeat;
+	background-size: 100% 100%;
+	padding: 14% 8%;
+	color:white;
+}
+.slider p {
+	font-size: 1.2rem;
+}
+.big{
+	font-size: 3.5rem;
+}
+.prueba{
+	background-color:#2ecc71;
+	padding:2.5%;
+	color:white;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+.icono{
+	display: inline-block;
+	font-size: 30px;
+	width: 50px;
+	height: 50px;
+	padding:10px;
+	margin-right:0;
+	border-radius: 50%;
+	color:white;
+	background-color: #1C7A44;
+	text-align: center;
+}
+.icono:hover{
+	text-decoration: none;
+	box-shadow:0px 20px 6px rgba(0,0,0,.2) ;
+	background-color: steelblue;
+	color:white;
+	transition: all .6s;
+}
+.descrip{
+	display: inline-block;
+	width: 80%;
+}
+.descrip h2,.descrip p{
+	margin:0;
+}
+.descrip h2{
+	font-size: 2rem;
+}
+#project{
+	background-color: #F5F5F5;
+	padding:3% 0%;
+}
+#project .descrip{
+	width: 100%;
+}
+#project .descrip p{
+	font-size: 1.3rem;
+}
+.img{
+	padding: 8px;
+	background-color: white;
+}
+.img img{
+	width: 100%;
+}
+.botones{
+	display: inline-block;
+	border: 1px solid #D54540;
+	background-color: #D9534F;
+}
+.botones a:first-child{
+	border-right:1px solid #D54540; 
+}
+.botones a{
+	display: inline-block;
+	background-color: #D9534F;
+	padding:8px;
+	color:white;
+	font-size: 8px;
+}
+.botones a:hover{
+	text-decoration: none;
+}
