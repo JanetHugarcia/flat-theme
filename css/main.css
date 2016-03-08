@@ -13,3 +13,123 @@
 .clearfix:after {
   clear: both;
 }
+
+* {
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+.pd-0 {
+	padding: 0;
+}
+.pd-20-0 {
+	padding: 20px 0; 
+}
+.gris h3 {
+	margin-top: 0;
+	color :#2F455A;
+}
+.align-center {
+    display: flex;
+    align-items: center;
+}
+.verde {
+	background: #2ECC71;
+    color: white;
+    padding: 20px 0;
+}
+.verde a {
+	color: white;
+}
+.gris {
+	background: #F5F5F5;
+    padding: 20px 0;
+}
+.gris .barra {
+	width: 100%;
+	background: white;
+	border-radius: 5px;
+	margin: 15px 0;
+}
+.gris  .int-barra {
+    border-radius: 5px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.gris  .barra-html {
+	background: #D9534F;
+    width: 90%;
+}
+.gris  .barra-wp {
+	background: #5CB85C;
+    width: 70%;
+}
+.gris  .barra-jm {
+	background: #428BCA;
+    width: 40%;
+}
+.gris  .barra-drupal {
+	background: #5BC0DE;
+    width: 50%;
+}
+.gris  .barra-php {
+	background: #F0AD4E;
+    width: 75%;
+}
+.team {
+	text-align: center;
+}
+.gris .team img{
+	width: 70%;
+    border-radius: 50%;
+    padding: 5px;
+    background: white;
+}
+.circ-redes {
+	width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    margin: 5px;
+}
+.icon-facebook{
+	background: #428BCA;
+}
+.icon-google-plus{
+	background: #D9534F;
+}
+.icon-twitter{
+	background: #58CFDC;
+}
+.icon-linkedin{
+	background: #5BC0DE;
+}
+footer {
+	background: #34495E;
+	color: #D2D6DA;
+	padding: 20px 0;
+}
+.foot-blog img{
+	width: 100%;
+}
+.input-group button {
+	background: #D9534F;
+	border:none;
+	color: white;
+}
+.Copyright {
+	background: #2C3E50;
+    color: #D2D6DA;
+    padding: 10px 0;
+}
+.Copyright a {
+ 	color: #D2D6DA;
+    margin: 0 15px;
+}
