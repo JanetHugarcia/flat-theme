@@ -29,9 +29,6 @@ jQuery(function ($) {
         }, 500);
     });
 
-    //hero imagen
-   $(window).resize(function() {
-       $('#hero').height($(window).height());
-    }).resize();
+
 
 });

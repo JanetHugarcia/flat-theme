@@ -25,46 +25,32 @@ body{
 	font-family:'Roboto',sans-serif;
 	font-size: 14px;
 }
-#hero{
-	background-color: #2ECC71;
-}
+
 .navbar{
 	background-color: #33485D;
 	padding:0.1%;
 }
-nav{
-	padding-top: 5px;
+.navbar li{
+	margin-top: 10px;
 }
-
+.navbar li a{
+	padding: 5px 10px;
+	border-radius: 10px;
+}
 .mg-0{
 	margin:0!important;
 }
-.menu{
-	margin: 0;
-}
-.menu>li{
-	display: inline-block;
-	padding:0px;
-}
-.menu>li>a{
-	width: 100%;
-	color:rgba(255,255,255,.5);
-	padding:10px 15px;
-	border-radius: 5px;
-}
+
 .active{
 	background-color: #2C3E50;
 }
-.menu>li>a:hover{
-	text-decoration: none;
-	color:white;
-}
+
 #main-slider{
 	color:white;
 }
 #main-slider p {
 	font-size: 1.2rem;
-	padding-top: 10%;
+	padding-top: 15%;
     margin-left: 5%;
 }
 .big{
@@ -72,7 +58,7 @@ nav{
 }
 .prueba{
 	background-color:#2ecc71;
-	padding:5%;
+	padding:2.5%;
 	color:white;
 }
 .icono{
@@ -121,6 +107,11 @@ nav{
 .img img{
 	width: 100%;
 }
+.img p{
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden;
+}
 .botones{
 	display: inline-block;
 	border: 1px solid #D54540;
@@ -142,9 +133,11 @@ nav{
 #main-slider .carousel .item {
 	margin-top: 60px;
 	height: 600px;
+	width: 100%;
 	background-size: cover;
 	background-position: 50%;
 	background-repeat: no-repeat;
+
 }
 .bck1{
 	background: url('../images/slider/bg1.jpg');
@@ -165,12 +158,18 @@ nav{
 #clientsaid .descrip{
 	margin:4%;
 }
+#portfolio p{
+    margin: 10px 0 0px;
+}
+.service a{
+	background-color: #939393;
+}
 
 @media screen and (max-width:767px){
 	.navbar-brand{
 		padding: 15px 0px 15px 5px;
 	}
-
+	
 	.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
 		top:45%;
 	}
@@ -183,5 +182,6 @@ nav{
 	.prueba .descrip{
 		margin-bottom:5%;
 	}
+
 	
 }
