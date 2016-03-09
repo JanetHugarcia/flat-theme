@@ -128,6 +128,7 @@ a {
 	background: white;
     border-radius: 10px;
     padding: 0;
+    margin-bottom: 20px;
 }
 .blog-item .image {
  	width: 100%;
@@ -195,7 +196,14 @@ a {
 	padding: 10px 0;
 }
 /*Page Section blog */
-
+a.read-more {
+	border-radius: 5px;
+    border: 1px gray solid;
+    padding: 10px;
+    color: gray;
+    margin: 5px 0;
+    display: inline-block;
+}
 /*Footer*/
 footer {
 	background: #34495E;
