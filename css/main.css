@@ -26,6 +26,9 @@ a {
 .pd-20-0 {
 	padding: 20px 0; 
 }
+.mt-10 {
+	margin-top: 10px;
+}
 .right {
 	float: right;
 }
@@ -47,7 +50,7 @@ a {
 	color: white;
 }
 /*Section Gris*/
-.gris h3, .gris h5 {
+.gris h3,  h5 {
 	margin-top: 0;
 	font-weight: bold;
 }
@@ -171,19 +174,19 @@ a {
 .list {
 	list-style: none;
 }
-.form-blog input {
+.blog-item .form-blog input {
 	width: 48%;
 	padding: 10px ; 
-}
-.form-blog input.left {
+} 
+.blog-item .form-blog input.left {
 	float: left;
 }
-.form-blog textarea {
+.blog-item .form-blog textarea {
 	width: 100%;
 	height: 200px;
 	margin: 10px 0;
 }
-.form-blog input, .form-blog textarea {
+.blog-item .form-blog input, .form-blog textarea {
     border-radius: 5px;
     border: 2px #E8E5E5 solid;
 }
@@ -198,11 +201,40 @@ a {
 /*Page Section blog */
 a.read-more {
 	border-radius: 5px;
-    border: 1px gray solid;
+    border: 1px #DDDDDD solid;
     padding: 10px;
-    color: gray;
+    color: #DDDDDD;
     margin: 5px 0;
     display: inline-block;
+}
+a.read-more:hover {
+	color: white;
+	background-color: gray;
+	text-decoration: none;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 2;
+  color: #fff;
+  cursor: default;
+  background-color: #33485D;
+  border-color: #33485D;
+}
+/*Page Section contact*/
+.contact-us input, .contact-us textarea  {
+	width: 100%;
+	border-radius: 5px;
+    border: 2px #E8E5E5 solid;
+    padding: 10px;
+    margin: 5px 0; 
+}
+.contact-us textarea {
+	height: 200px;
 }
 /*Footer*/
 footer {
