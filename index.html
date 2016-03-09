@@ -26,39 +26,74 @@
   <body>
     <!-- Inserte código aqui -->
     <section id="hero">
-          <header>
+          <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt">
             <div class="container">
-              <div class="row ">
-                <div class="col-xs-12 col-md-4 pd-0">
-                  <a id="index.html" href="index.html">
-                    <img src="images/logo.png" alt="">
-                  </a>
-                  <div id="mostrar-nav" class="fa fa-bars"></div>
-                </div>
-                <div class="col-xs-12 col-md-8 pd-0 clearfix">
-                  <nav >
-                    <ul class=" hidden-xs menu pull-right">
-                      <li><a class="active" href="index.html">Home</a></li>
-                      <li><a href="about-us.html">About us</a></li>
-                      <li><a href=".services.html">Services</a></li>
-                      <li><a href="portfolio.html">Portfolio</a></li>
-                      <li><a href="blog.html">Blog</a></li>
-                      <li><a href=".contact-us.html">Contact</a></li>
-                    </ul>
-                  </nav>
-                </div>
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" data-pin-nopin="true"></a>
+              </div>
+              <div class="navbar-collapse collapse" style="height: 0px;">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="contact-us.html">Contact</a></li>
+                </ul>
               </div>
             </div>
           </header>
-          <div class="slider">
-            <div class="container">
-              <div class="row">
-                <p class="animated bounceInUp "><span class="big">Powerful and Responsive Web Design</span><br>Pellentesque habitant morbi tristiqye senectus et netus et malesuada fames ac turpis egestas.</p>
+          <div id="main-slider" class="no-margin">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+             
+              <div class="carousel-inner">
+                <div class="item active bck1">
+                  <div class="container">
+                      <div class="row">
+                       <p class="animated bounceInUp "><span class="big">Powerful and Responsive Web Design</span><br>Pellentesque habitant morbi tristiqye senectus et netus et malesuada fames ac turpis egestas.</p>
+                      </div>
+                  </div>
+                </div>
+             
+                <div class="item bck2">
+                  <div class="container">
+                      <div class="row">
+                       <p class="animated bounceInUp "><span class="big">Powerful and Responsive Web Design</span><br>Pellentesque habitant morbi tristiqye senectus et netus et malesuada fames ac turpis egestas.</p>
+                      </div>
+                  </div>
+                </div>
+             
+                <div class="item bck3">
+                  <div class="container">
+                      <div class="row">
+                       <p class="animated bounceInUp "><span class="big">Powerful and Responsive Web Design</span><br>Pellentesque habitant morbi tristiqye senectus et netus et malesuada fames ac turpis egestas.</p>
+                      </div>
+                  </div>
+                </div>
               </div>
+             
+              <a class="left carousel-control" href="#carousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#carousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
             </div>
           </div>
           
-          <div class="prueba">
+    </section>
+    <div class="prueba">
             <div class="container">
               <div class="row">
                 <div class="col-xs-12 col-md-4 clearfix">
@@ -85,7 +120,6 @@
               </div>
             </div>
           </div>
-    </section>
     <section id="project">
       <div class="container">
         <div class="row">
@@ -120,24 +154,36 @@
         </div>
       </div> 
     </section>
- <!--    <section>
+    <section id="clientsaid"class="text-center">
       <div class="container">
         <div class="row">
+        <div class="descrip">
           <h2>What our clients say</h2>
           <p>Pellentesque habitant morbi tristique senectus et malesuada fames ac turpis egestas.</p>
         </div>
-        <div class="col-md-6">
-          <blockquote>
+        </div>
+        <div class="col-md-6 ">
+          <blockquote class="text-left">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <small><cite title="Nombre Apellidos">Someone famous in Source Title</cite></small>
           </blockquote>
-          <blockquote>
+          <blockquote class="text-left">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <small><cite title="Nombre Apellidos">Someone famous in Source Title</cite></small>
+          </blockquote>
+        </div>
+        <div class="col-md-6 ">
+          <blockquote class="text-left">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <small><cite title="Nombre Apellidos">Someone famous in Source Title</cite></small>
+          </blockquote>
+          <blockquote class="text-left">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <small><cite title="Nombre Apellidos">Someone famous in Source Title</cite></small>
           </blockquote>
         </div>
       </div>
-    </section>-->
+    </section>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>

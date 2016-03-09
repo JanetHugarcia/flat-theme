@@ -30,8 +30,8 @@ jQuery(function ($) {
     });
 
     //hero imagen
-    $(window).resize(function() {
-        $('#hero').height($(window).height());
+   $(window).resize(function() {
+       $('#hero').height($(window).height());
     }).resize();
 
 });
