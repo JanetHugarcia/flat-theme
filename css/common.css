@@ -26,7 +26,6 @@ body{
 	font-size: 14px;
 }
 #hero{
-	position: relative;
 	background-color: #2ECC71;
 }
 .navbar{
@@ -65,18 +64,16 @@ nav{
 }
 #main-slider p {
 	font-size: 1.2rem;
-	padding-top:20%;
+	padding-top: 10%;
+    margin-left: 5%;
 }
 .big{
 	font-size: 3.5rem;
 }
 .prueba{
 	background-color:#2ecc71;
-	padding:2.5%;
+	padding:5%;
 	color:white;
-	position: absolute;
-	width: 100%;
-	bottom: 0;
 }
 .icono{
 	display: inline-block;
@@ -144,7 +141,7 @@ nav{
 }
 #main-slider .carousel .item {
 	margin-top: 60px;
-	height: 650px;
+	height: 600px;
 	background-size: cover;
 	background-position: 50%;
 	background-repeat: no-repeat;
@@ -173,9 +170,7 @@ nav{
 	.navbar-brand{
 		padding: 15px 0px 15px 5px;
 	}
-	.carousel-indicators{
-		display:none;
-	}
+
 	.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
 		top:45%;
 	}
