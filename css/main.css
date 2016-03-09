@@ -41,6 +41,7 @@ a {
 	background: #2ECC71;
     color: white;
     padding: 20px 0;
+    margin-top: 60px;
 }
 .verde a {
 	color: white;
@@ -193,6 +194,8 @@ a {
 .ads {
 	padding: 10px 0;
 }
+/*Page Section blog */
+
 /*Footer*/
 footer {
 	background: #34495E;
