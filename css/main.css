@@ -29,6 +29,7 @@ a {
 .mt-10 {
 	margin-top: 10px;
 }
+
 .right {
 	float: right;
 }
@@ -48,6 +49,9 @@ a {
 }
 .verde a {
 	color: white;
+}
+.pd-5{
+	padding:5% 0%;
 }
 /*Section Gris*/
 .gris h3,  h5 {
