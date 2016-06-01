@@ -131,6 +131,10 @@ a {
 	background: #5BC0DE;
 }
  /*Page -- section blog-items*/
+.carousel-control {
+  padding-top:10%;
+  width:5%;
+}
 .blog-item .blog-left {
 	background: white;
     border-radius: 10px;
@@ -245,6 +249,9 @@ footer {
 	background: #34495E;
 	color: #D2D6DA;
 	padding: 20px 0;
+}
+.foot-blog{
+	margin-bottom: 5px;
 }
 .foot-blog img{
 	width: 100%;

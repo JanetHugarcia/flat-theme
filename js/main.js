@@ -28,7 +28,15 @@ jQuery(function ($) {
             scrollTop: $("body").offset().top
         }, 500);
     });
+	//sliderthmbs
+		$('#myCarousel').carousel({
+		interval: 10000
+		})
 
+			$('#myCarousel').on('slid.bs.carousel', function() {
+				//alert("slid");
+		});
+    
 
 
 });
